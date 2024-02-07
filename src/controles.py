@@ -50,3 +50,10 @@ class GameController:
 
     def presionar_select(self):
         self.presionar_tecla('space')
+        
+    def ejecutar_accion(self, indice_accion):
+     if indice_accion == 0:
+         self.mover_arriba()
+     elif indice_accion == 1:
+         self.mover_abajo()
+ 
